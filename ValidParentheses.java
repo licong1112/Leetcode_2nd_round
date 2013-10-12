@@ -2,10 +2,6 @@ import java.util.HashMap;
 import java.util.Stack;
 
 public class ValidParentheses {
-	public static void main(String[] args) {
-		ValidParentheses test = new ValidParentheses();
-		System.out.println(test.isValid("(())()[]{}"));
-	}
 	public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
